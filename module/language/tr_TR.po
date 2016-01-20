@@ -1,0 +1,672 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SanalFabrika\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-23 22:17-0700\n"
+"PO-Revision-Date: 2015-12-23 13:08+0200\n"
+"Last-Translator: Bahram Lotfi Sadigh <bahram.lotfi@ostim.com.tr>\n"
+"Language-Team: OSTIM Teknoloji A.Ş. <info@ostim.com.tr>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../view/layout/sfdm.phtml:1
+msgid "Virtual Enterprise Project"
+msgstr "Sanal Fabrika Projesi"
+
+#: ../view/layout/sfdm.phtml:2
+msgid "Virtual Enterprise Control Panel"
+msgstr "Sanal Fabrika Denetim Masası"
+
+#: ../view/layout/sfdm.phtml:3
+msgid "OSTIM"
+msgstr "OSTİM"
+
+#: ../view/layout/sfdm.phtml:3
+msgid "OSTIM Technology A.Ş."
+msgstr "OSTİM Teknoloji A.Ş."
+
+#: ../view/layout/sfdm.phtml:4
+#: ../view/layout/sfdm.phtml:11
+msgid "Virtual Enterprise"
+msgstr "Sanal Fabrika"
+
+#: ../view/layout/sfdm.phtml:4
+#: ../view/layout/sfdm.phtml:11
+msgid "V.E."
+msgstr "S.F."
+
+#: ../view/layout/sfdm.phtml:5
+msgid "Active"
+msgstr "Aktif"
+
+#: ../view/layout/sfdm.phtml:6
+msgid "Main Navigation"
+msgstr "Ana Menü"
+
+#: ../view/layout/sfdm.phtml:7
+#: ../view/layout/sfdm.phtml:17
+msgid "Home"
+msgstr "Anasayfa"
+
+#: ../view/layout/layout.phtml:36
+msgid "Supervisor Dashboard"
+msgstr "Danışman Panosu"
+
+#: ../view/layout/sfdm.phtml:8
+msgid "Enterprises"
+msgstr "Firmalar"
+
+#: ../view/layout/sfdm.phtml:9
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: ../view/layout/sfdm.phtml:10
+msgid "Organizations"
+msgstr "Kurumlar"
+
+#: ../view/layout/sfdm.phtml:12
+msgid "ECO-OSTIM"
+msgstr "EKO-OSTİM"
+
+#: ../view/layout/sfdm.phtml:13
+msgid "Definitions"
+msgstr "Tanımlamalar"
+
+#: ../view/layout/sfdm.phtml:14
+msgid "Calendar"
+msgstr "Takvim"
+
+#: ../view/layout/sfdm.phtml:15
+msgid "Mail Box"
+msgstr "Posta Kutusu"
+
+#: ../view/layout/sfdm.phtml:16
+msgid "My Documents"
+msgstr "Dosyalarım"
+
+#: ../view/layout/sfdm.phtml:18
+msgid "Notifications"
+msgstr "Uyarı"
+
+#: ../view/layout/sfdm.phtml:20
+msgid "Show all notifications"
+msgstr "Bütün Uyarıları Göster"
+
+#: ../view/layout/sfdm.phtml:19
+msgid "New Messages"
+msgstr "Yeni Mesaj"
+
+#: ../view/layout/sfdm.phtml:19
+msgid "Show all messages"
+msgstr "Tüm Mesajları Gör"
+
+#: ../view/layout/sfdm.phtml:20
+msgid "Works To Do"
+msgstr "Görevlendirme"
+
+#: ../view/layout/sfdm.phtml:20
+msgid "Show all tasks"
+msgstr "Bütün Görevleri Göster"
+
+#: ../view/layout/sfdm.phtml:21
+msgid "Collaborating Companies"
+msgstr "Çalıştığım Firmalar"
+
+#: ../view/layout/sfdm.phtml:22
+msgid "Friends"
+msgstr "Arkadaşlarım"
+
+#: ../view/layout/sfdm.phtml:23
+msgid "Followers"
+msgstr "Takipçilerim"
+
+#: ../view/layout/sfdm.phtml:24
+msgid "Profile"
+msgstr "Profil"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Log out"
+msgstr "Çıkış"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Log in"
+msgstr "Giriş"
+
+#: ../view/layout/sfdm.phtml:26
+msgid "Layout Options"
+msgstr "Sayfa Yerleşimi"
+
+#: ../view/layout/sfdm.phtml:27
+msgid "Fixed layout"
+msgstr "Fiks Yerleşim Düzeni"
+
+#: ../view/layout/sfdm.phtml:28
+msgid "Activate the fixed layout. You can't use fixed and boxed layouts together"
+msgstr "Fiks yerleşim düzenini aktive et. Kutu yerleşim düzeni ve fiks yerleşim düzenini birlikte kullanamazsınız"
+
+#: ../view/layout/sfdm.phtml:29
+msgid "Boxed Layout"
+msgstr "Kutu Yerleşim Düzeni"
+
+#: ../view/layout/sfdm.phtml:30
+msgid "Activate the boxed layout"
+msgstr "Kutu yerleşim düzenini aktive et"
+
+#: ../view/layout/sfdm.phtml:31
+msgid "Toggle Sidebar"
+msgstr "Sol Menü Bar'ın Durumunu Değiştir"
+
+#: ../view/layout/sfdm.phtml:32
+msgid "Toggle the left sidebar's state (open or collapse)"
+msgstr "Sol menü bar durumunu değiştir (açık veya kapalı)"
+
+#: ../view/layout/sfdm.phtml:33
+msgid "Sidebar Expand on Hover"
+msgstr "Sol Menü Bar Üzerine Gelindiğinde Açılsın"
+
+#: ../view/layout/sfdm.phtml:34
+msgid "Let the sidebar mini expand on hover"
+msgstr "Sol menü bar üzerine fare ile gelindiğinde otomatik olarak açılsın"
+
+#: ../view/layout/sfdm.phtml:35
+msgid "Toggle Right Sidebar Slide"
+msgstr "Sağ Bar'ı Kaydır"
+
+#: ../view/layout/sfdm.phtml:36
+msgid "Toggle between slide over content and push content effects"
+msgstr "Sağ bar'ı kaydırarak kapatma veya açma özelliğini çalıştır"
+
+#: ../view/layout/sfdm.phtml:37
+msgid "Toggle Right Sidebar Skin"
+msgstr "Sağ Bar Şablonunu Değiştir"
+
+#: ../view/layout/sfdm.phtml:38
+msgid "Toggle between dark and light skins for the right sidebar"
+msgstr "Sağ bar için koyu veya açık şablonları çalıştır"
+
+#: ../view/layout/sfdm.phtml:39
+msgid "Skins"
+msgstr "Sayfa Şablonları"
+
+#: ../view/layout/sfdm.phtml:40
+msgid "Blue"
+msgstr "Mavi"
+
+#: ../view/layout/sfdm.phtml:41
+msgid "Black"
+msgstr "Siyah"
+
+#: ../view/layout/sfdm.phtml:42
+msgid "Purple"
+msgstr "Mor"
+
+#: ../view/layout/sfdm.phtml:43
+msgid "Green"
+msgstr "Yeşil"
+
+#: ../view/layout/sfdm.phtml:44
+msgid "Red"
+msgstr "Kırmızı"
+
+#: ../view/layout/sfdm.phtml:45
+msgid "Yellow"
+msgstr "Sarı"
+
+#: ../view/layout/sfdm.phtml:46
+msgid "Blue Light"
+msgstr "Açık Mavi"
+
+#: ../view/layout/sfdm.phtml:47
+msgid "Black Light"
+msgstr "Açık Siyah"
+
+#: ../view/layout/sfdm.phtml:48
+msgid "Purple Light"
+msgstr "Açık Pembe"
+
+#: ../view/layout/sfdm.phtml:49
+msgid "Green Light"
+msgstr "Açık Yeşil"
+
+#: ../view/layout/sfdm.phtml:50
+msgid "Red Light"
+msgstr "Açık Kırmızı"
+
+#: ../view/layout/sfdm.phtml:51
+msgid "Yellow Light"
+msgstr "Açık Sarı"
+
+#: ../view/layout/sfdm.phtml:52
+msgid "Recent Activities"
+msgstr "Son Aktiviteler"
+
+#: ../view/layout/sfdm.phtml:54
+msgid "Tasks Progress"
+msgstr "Takip Edilen İşler"
+
+#: ../view/layout/sfdm.phtml:55
+msgid "General Settings"
+msgstr "Temel Ayarlar"
+
+#: ../view/layout/sfdm.phtml:56
+msgid "Report panel usage"
+msgstr "Rapor Paneli Kullanımı"
+
+#: ../view/layout/sfdm.phtml:57
+msgid "Some information about this general settings option"
+msgstr "Rapor Paneli kullanımı için yetkilendirme kıstası olacaktır"
+
+#: ../view/layout/sfdm.phtml:58
+msgid "Allow mail redirect"
+msgstr "Firma Güncelleme Yetkisi"
+
+#: ../view/layout/sfdm.phtml:59
+msgid "Other sets of options are available"
+msgstr "Diğer seçenekler setleri mevcuttur"
+
+#: ../view/layout/sfdm.phtml:60
+msgid "Expose author name in posts"
+msgstr "Yazarın ismini iletilerde göster"
+
+#: ../view/layout/sfdm.phtml:61
+msgid "Allow the user to show his name in blog posts"
+msgstr "Kullanıcıya isminin bloglarda gösterilmesi için izin ver"
+
+#: ../view/layout/sfdm.phtml:62
+msgid "Chat Settings"
+msgstr "Anlık Mesajlajma Özellikleri"
+
+#: ../view/layout/sfdm.phtml:63
+msgid "Show me as online"
+msgstr "Sistemde göster"
+
+#: ../view/layout/sfdm.phtml:64
+msgid "Turn off notifications"
+msgstr "Bilgilendirmeleri kapat"
+
+#: ../view/layout/sfdm.phtml:65
+msgid "Delete chat history"
+msgstr "Anlık mesajlajma geçmişini sil"
+
+#: ../view/layout/layout.phtml:66
+msgid "All rights reserved."
+msgstr "Tüm haklar saklıdır."
+
+#: ../view/layout/layout.phtml:66
+msgid "Copyright"
+msgstr "Telif Hakkı"
+
+#: ../view/layout/layout.phtml:67
+msgid "Version"
+msgstr "Sürüm"
+
+#: ../view/layout/layout.phtml:
+msgid ""
+msgstr ""
+
+#: ../view/layout/layout.phtml:
+msgid ""
+msgstr ""
+
+#: ../view/application/index/index.phtml:2
+#, php-format
+msgid "Welcome to OSTIM Virtual Enterprise System"
+msgstr "OSTİM Sanal Fabrika Sistemine Hoş Geldiniz"
+
+#: ../view/error/index.phtml:1
+msgid "An error occurred"
+msgstr "An error occurred"
+
+#: ../view/error/index.phtml:15 ../view/error/index.phtml:39
+msgid "Message"
+msgstr "Mesaj"
+
+#: ../view/error/index.phtml:19 ../view/error/index.phtml:43
+#: ../view/error/404.phtml:55
+msgid "Stack trace"
+msgstr "Denetleyici"
+
+#: ../view/error/index.phtml:29
+msgid "Previous exceptions"
+msgstr "Önceki istisnalar"
+
+#: ../view/error/index.phtml:58
+msgid "No Exception available"
+msgstr "İstisna yok"
+
+#: ../view/error/404.phtml:1
+msgid "A 404 error occurred"
+msgstr "Bir 404 hatası oluştu"
+
+#: ../view/error/404.phtml:10
+msgid "The requested controller was unable to dispatch the request."
+msgstr "Talep edilen denetleyici işlemi işlemesi mümkün değildir."
+
+#: ../view/error/404.phtml:13
+msgid "The requested controller could not be mapped to an existing controller class."
+msgstr "Talep edilen denetleyiciye uygun denetleyici sınıfı tahsis edilemedi."
+
+#: ../view/error/404.phtml:16
+msgid "The requested controller was not dispatchable."
+msgstr "Talep edilen denetleyici çağrılabilir değildir."
+
+#: ../view/error/404.phtml:19
+msgid "The requested URL could not be matched by routing."
+msgstr "İstenen URL yönlendirmede tahsis edilemedi"
+
+#: ../view/error/404.phtml:22
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "Neden 404 hatasının oluştuğunu şu an belirleyemiyoruz."
+
+#: ../view/error/404.phtml:34
+msgid "Controller"
+msgstr "Denetleyici"
+
+#: ../view/error/404.phtml:41
+#, php-format
+msgid "resolves to %s"
+msgstr "Buraya çözümlenir: %s"
+
+#: ../view/error/404.phtml:51
+msgid "Exception"
+msgstr "İstisna"
+
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Help"
+msgstr "Destek"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Frequently Asked Questions"
+msgstr "Sık Sorulan Sorular"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Languages"
+msgstr "Diller"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Learn more"
+msgstr "Bilgi Edinme"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Our Job"
+msgstr "İşimiz"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "VE Team"
+msgstr "SF Takımı"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Overall Manufacturing Area"
+msgstr "Toplam İmalat Alanı"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Machine Park Size"
+msgstr "Makina Parkı Büyüklüğü"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Overall Enterprise Number"
+msgstr "Toplam Firma Sayısı"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Employees"
+msgstr "Toplma Çalışan Sayısı"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Marketing and Consulting"
+msgstr "Satış ve Danışmanlık"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Our Organization"
+msgstr "Kurumumuz"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Imports"
+msgstr "İthalat"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Exports"
+msgstr "İhracat"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Our Employees"
+msgstr "Çalışanlarımız"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Our Services"
+msgstr "Servislerimiz"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Our Portfolio"
+msgstr "Portfolyomuz"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Load More"
+msgstr "Daha fazla yüklen"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Our Clients"
+msgstr "Müşterilerimiz"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Order"
+msgstr "Sipariş"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Request for Quote"
+msgstr "Teklif Alma"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Contact us"
+msgstr "Bize Ulaşın"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Name"
+msgstr "Ad"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Email"
+msgstr "E posta"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Send Message"
+msgstr "Mesaj Gönder"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Negotiation"
+msgstr "Müzayede"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Auction"
+msgstr "Açık Artırma"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Auctioning"
+msgstr "Açık Artırım"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Latest News"
+msgstr "Son Haberler"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Integrating the Capabilities and Capacities of more than 5,000 Companies with 60,000 Employees"
+msgstr "OSTİM'in 60,000'den fazla çalışanı ve 5,000'den fazla firmasının yetenekleri ve kapasitesini birleştirmektedir"
+
+#: ../view/layout/sfdm.phtml:25
+msgid "Opening OSTIM manufacturing capabilities to the customers from all over the world"
+msgstr "OSTİM'i bir imalat üstü olarak dünyadaki bütün müşteri isteklerine açmaktadır"
+
+msgid "Company"
+msgstr "Firma"
+
+msgid "Virtual Enterprise Company Registration"
+msgstr "Sanal Fabrika Firma Kaydı"
+
+msgid "General Information"
+msgstr "Genel Bilgi"
+
+msgid "Communication"
+msgstr "İletişim"
+
+msgid "Financial"
+msgstr "Finansal"
+
+msgid "Personel"
+msgstr "Personel"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Tax Number"
+msgstr "Vergi Numarası"
+
+msgid "Tax Office"
+msgstr "Vergi Dairesi"
+
+msgid "Social Security Number"
+msgstr "SGK Sicil Nosu"
+
+msgid "Foundation Date"
+msgstr "Kuruluş Tarihi"
+
+msgid "Web Address"
+msgstr "Web Adres"
+
+msgid "Submit"
+msgstr "Kaydet"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Building Type"
+msgstr "Bina Tipi"
+
+msgid "Building Name"
+msgstr "Bina Adı"
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid "State"
+msgstr "Eyalet"
+
+msgid "Province"
+msgstr "İl"
+
+msgid "City"
+msgstr "Şehir"
+
+msgid "District"
+msgstr "İlçe"
+
+msgid "Village"
+msgstr "Köy"
+
+msgid "Street"
+msgstr "Cadde"
+
+msgid "Alley"
+msgstr "Sokak"
+
+msgid "Number"
+msgstr "Kapı No."
+
+msgid "Postal Code"
+msgstr "Posta Kodu"
+
+msgid "Telephone"
+msgstr "Tel"
+
+msgid "Fax"
+msgstr "Faks"
+
+msgid "Update"
+msgstr "Güncelleme"
+
+msgid "Add New Address"
+msgstr "Yeni Adres Ekle"
+
+msgid "Update Company Information"
+msgstr "Firma Bilgisi Güncelleme"
+
+msgid "Company Registration"
+msgstr "Firma Kaydı"
+
+msgid "List of Companies"
+msgstr "Firmalar Listesi"
+
+msgid "List of Machine Tools"
+msgstr "Makineler Listesi"
+
+msgid "New Submission"
+msgstr "Yeni Kayıt"
+
+msgid "Manufacturing Machine Tools"
+msgstr "İmalat Makinelerı"
+
+msgid "Quality Control Equipment"
+msgstr "Kalite Kontrol Ekipmanları"
+
+msgid "Others"
+msgstr "Diğer"
+
+msgid "Manufacturing Operation Type"
+msgstr "İmalat Süreci Tipi"
+
+msgid "Machine Tool Type"
+msgstr "İmalat Makinesi Tipi"
+
+msgid "Add New Machine Tool"
+msgstr "Yeni Makine Ekle"
+
+msgid "Measurement Process Type"
+msgstr "Ölçme Yöntemi"
+
+msgid "Quality Control Tool Type"
+msgstr "Kalite Kontrol Cihazı Tipi"
+
+msgid "Add New Q.C. Device"
+msgstr "Yeni Kalite Kontrol Cihazı Ekle"
+
+msgid "Update Machine Tool Information"
+msgstr "Makine Bilgisini Güncelle"
+
+msgid "Add New Device"
+msgstr "Yeni Cihaz Ekle"
+
+msgid "Software Information"
+msgstr "Yazılım Bilgisi"
+
+msgid "List of Software"
+msgstr "Yazılımlar Listesi"
+
+msgid "Update Information"
+msgstr "Bilgileri Güncelle"
+
+
+msgid "Update software information"
+msgstr "Yazılım Bilgilerini Güncelle"
+
+msgid "Add New Software"
+msgstr "Yeni Yezılım Ekle"
+
+msgid "Select a country ... "
+msgstr "Ülke seçiniz ... "
+
+msgid "Select a province ... "
+msgstr "İl seçiniz ... "
+
+msgid "Select a district ... "
+msgstr "İlçe seçiniz ... "
+
+msgid "Select a village ... "
+msgstr "Köy veya semt seçiniz ... "
+
+msgid "Search..."
+msgstr "Ara..."

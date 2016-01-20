@@ -1,0 +1,532 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SanalFabrika\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-23 22:17-0700\n"
+"PO-Revision-Date: 2015-12-23 13:08+0200\n"
+"Last-Translator: Bahram Lotfi Sadigh <bahram.lotfi@ostim.com.tr>\n"
+"Language-Team: OSTIM Teknoloji A.Ş. <info@ostim.com.tr>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Virtual Enterprise Project"
+msgstr ""
+
+msgid "Virtual Enterprise Control Panel"
+msgstr ""
+
+msgid "OSTIM"
+msgstr ""
+
+msgid "OSTIM Technology A.Ş."
+msgstr ""
+
+msgid "Virtual Enterprise"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Main Navigation"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Supervisor Dashboard"
+msgstr ""
+
+msgid "Enterprises"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "ECO-OSTIM"
+msgstr ""
+
+msgid "Definitions"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
+msgid "Mail Box"
+msgstr ""
+
+msgid "My Documents"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Show all notifications"
+msgstr ""
+
+msgid "New Messages"
+msgstr ""
+
+msgid "Show all messages"
+msgstr ""
+
+msgid "Works To Do"
+msgstr ""
+
+msgid "Show all tasks"
+msgstr ""
+
+msgid "Collaborating Companies"
+msgstr ""
+
+msgid "Friends"
+msgstr ""
+
+msgid "Followers"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Log in"
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+
+msgid "Layout Options"
+msgstr ""
+
+msgid "Fixed layout"
+msgstr ""
+
+msgid "Activate the fixed layout. You can't use fixed and boxed layouts together"
+msgstr ""
+
+msgid "Boxed Layout"
+msgstr ""
+
+msgid "Activate the boxed layout"
+msgstr ""
+
+msgid "Toggle Sidebar"
+msgstr ""
+
+msgid "Toggle the left sidebar's state (open or collapse)"
+msgstr ""
+
+msgid "Sidebar Expand on Hover"
+msgstr ""
+
+msgid "Let the sidebar mini expand on hover"
+msgstr ""
+
+msgid "Toggle Right Sidebar Slide"
+msgstr ""
+
+msgid "Toggle between slide over content and push content effects"
+msgstr ""
+
+msgid "Toggle Right Sidebar Skin"
+msgstr ""
+
+msgid "Toggle between dark and light skins for the right sidebar"
+msgstr ""
+
+msgid "Skins"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Black"
+msgstr ""
+
+msgid "Purple"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Yellow"
+msgstr ""
+
+msgid "Blue Light"
+msgstr ""
+
+msgid "Black Light"
+msgstr ""
+
+msgid "Purple Light"
+msgstr ""
+
+msgid "Green Light"
+msgstr ""
+
+msgid "Red Light"
+msgstr ""
+
+msgid "Yellow Light"
+msgstr ""
+
+msgid "Recent Activities"
+msgstr ""
+
+msgid "Tasks Progress"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Report panel usage"
+msgstr ""
+
+msgid "Some information about this general settings option"
+msgstr ""
+
+msgid "Allow mail redirect"
+msgstr ""
+
+msgid "Other sets of options are available"
+msgstr ""
+
+msgid "Expose author name in posts"
+msgstr ""
+
+msgid "Allow the user to show his name in blog posts"
+msgstr ""
+
+msgid "Chat Settings"
+msgstr ""
+
+msgid "Show me as online"
+msgstr ""
+
+msgid "Turn off notifications"
+msgstr ""
+
+msgid "Delete chat history"
+msgstr ""
+
+msgid "All rights reserved."
+msgstr ""
+
+msgid "Copyright"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Welcome to OSTIM Virtual Enterprise System"
+msgstr ""
+
+msgid "An error occurred"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Stack trace"
+msgstr ""
+
+msgid "Previous exceptions"
+msgstr ""
+
+msgid "No Exception available"
+msgstr ""
+
+msgid "A 404 error occurred"
+msgstr ""
+
+msgid "The requested controller was unable to dispatch the request."
+msgstr ""
+
+msgid "The requested controller could not be mapped to an existing controller class."
+msgstr ""
+
+msgid "The requested controller was not dispatchable."
+msgstr ""
+
+msgid "The requested URL could not be matched by routing."
+msgstr ""
+
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr ""
+
+msgid "Controller"
+msgstr ""
+
+msgid "resolves to %s"
+msgstr ""
+
+msgid "Exception"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Frequently Asked Questions"
+msgstr ""
+
+msgid "Languages"
+msgstr ""
+
+msgid "Learn more"
+msgstr ""
+
+msgid "Our Job"
+msgstr ""
+
+msgid "VE Team"
+msgstr ""
+
+msgid "Overall Manufacturing Area"
+msgstr ""
+
+msgid "Machine Park Size"
+msgstr ""
+
+msgid "Overall Enterprise Number"
+msgstr ""
+
+msgid "Employees"
+msgstr ""
+
+msgid "Marketing and Consulting"
+msgstr ""
+
+msgid "Our Organization"
+msgstr ""
+
+msgid "Imports"
+msgstr ""
+
+msgid "Exports"
+msgstr ""
+
+msgid "Our Employees"
+msgstr ""
+
+msgid "Our Services"
+msgstr ""
+
+msgid "Our Portfolio"
+msgstr ""
+
+msgid "Load More"
+msgstr ""
+
+msgid "Our Clients"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Request for Quote"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Send Message"
+msgstr ""
+
+msgid "Negotiation"
+msgstr ""
+
+msgid "Auction"
+msgstr ""
+
+msgid "Auctioning"
+msgstr ""
+
+msgid "Latest News"
+msgstr ""
+
+msgid "Integrating the Capabilities and Capacities of more than 5,000 Companies with 60,000 Employees"
+msgstr ""
+
+msgid "Opening OSTIM manufacturing capabilities to the customers from all over the world"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "Virtual Enterprise Company Registration"
+msgstr ""
+
+msgid "General Information"
+msgstr ""
+
+msgid "Communication"
+msgstr ""
+
+msgid "Financial"
+msgstr ""
+
+msgid "Personel"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Tax Number"
+msgstr ""
+
+msgid "Tax Office"
+msgstr ""
+
+msgid "Social Security Number"
+msgstr ""
+
+msgid "Foundation Date"
+msgstr ""
+
+msgid "Web Address"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Building Type"
+msgstr ""
+
+msgid "Building Name"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Province"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "District"
+msgstr ""
+
+msgid "Village"
+msgstr ""
+
+msgid "Street"
+msgstr ""
+
+msgid "Alley"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Postal Code"
+msgstr ""
+
+msgid "Telephone"
+msgstr ""
+
+msgid "Fax"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Add New Address"
+msgstr ""
+
+msgid "Update Company Information"
+msgstr ""
+
+msgid "Company Registration"
+msgstr ""
+
+msgid "List of Companies"
+msgstr ""
+
+msgid "List of Machine Tools"
+msgstr ""
+
+msgid "New Submission"
+msgstr ""
+
+msgid "Manufacturing Machine Tools"
+msgstr ""
+
+msgid "Quality Control Equipment"
+msgstr ""
+
+msgid "Others"
+msgstr ""
+
+msgid "Manufacturing Operation Type"
+msgstr ""
+
+msgid "Machine Tool Type"
+msgstr ""
+
+msgid "Add New Machine Tool"
+msgstr ""
+
+msgid "Measurement Process Type"
+msgstr ""
+
+msgid "Quality Control Tool Type"
+msgstr ""
+
+msgid "Add New Q.C. Device"
+msgstr ""
+
+msgid "Update Machine Tool Information"
+msgstr ""
+
+msgid "Add New Device"
+msgstr ""
+
+msgid "Software Information"
+msgstr ""
+
+msgid "List of Software"
+msgstr ""
+
+msgid "Update software information"
+msgstr ""
+
+msgid "Add New Software"
+msgstr ""
+
+msgid "Select a country ... "
+msgstr ""
+
+msgid "Select a province ... "
+msgstr ""
+
+msgid "Select a district ... "
+msgstr ""
+
+msgid "Select a village ... "
+msgstr ""
+
+msgid "Search..."
+msgstr ""

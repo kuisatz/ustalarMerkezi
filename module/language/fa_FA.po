@@ -1,0 +1,572 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SanalFabrika\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-23 22:17-0700\n"
+"PO-Revision-Date: 2015-12-23 13:08+0200\n"
+"Last-Translator: Bahram Lotfi Sadigh <bahram.lotfi@ostim.com.tr>\n"
+"Language-Team: OSTIM Teknoloji A.Ş. <info@ostim.com.tr>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Virtual Enterprise Project"
+msgstr "پروژه شرکت مجازی"
+
+msgid "Virtual Enterprise Control Panel"
+msgstr "صفحه کنترل"
+
+msgid "OSTIM"
+msgstr "اوستیم"
+
+msgid "OSTIM Technology A.Ş."
+msgstr " اوستیم تکنولوژی"
+
+msgid "Virtual Enterprise"
+msgstr "شرکت مجازی"
+
+msgid "V.E."
+msgstr ".ش.م"
+
+msgid "Active"
+msgstr "فعال"
+
+msgid "Main Navigation"
+msgstr "منوی اصلی"
+
+msgid "Home"
+msgstr "خانه"
+
+msgid "Supervisor Dashboard"
+msgstr "صفحه کنترل سرپرست"
+
+msgid "Enterprises"
+msgstr "شرکتها"
+
+msgid "Users"
+msgstr "کاربران"
+
+msgid "Organizations"
+msgstr "سازمانها"
+
+msgid "ECO-OSTIM"
+msgstr "EKO-OSTİM"
+
+msgid "Definitions"
+msgstr "تعاریف"
+
+msgid "Calendar"
+msgstr "تقویم"
+
+msgid "Mail Box"
+msgstr "صندوق پست"
+
+msgid "My Documents"
+msgstr "مدارک"
+
+msgid "Notifications"
+msgstr "اطلاع رسانی"
+
+msgid "Show all notifications"
+msgstr "مشاهده تمام اخطارها"
+
+msgid "New Messages"
+msgstr "پیام جدید"
+
+msgid "Show all messages"
+msgstr "مشاهده تمام پیامها"
+
+msgid "Works To Do"
+msgstr "لیست تکالیف"
+
+msgid "Show all tasks"
+msgstr "مشاهده تمام تکالیف"
+
+msgid "Collaborating Companies"
+msgstr "شرکتهای مرتبط"
+
+msgid "Friends"
+msgstr "دوستان"
+
+msgid "Followers"
+msgstr "تعقیب کنندگان"
+
+msgid "Profile"
+msgstr "نمایه"
+
+msgid "Log in"
+msgstr "ورود"
+
+msgid "Log out"
+msgstr "خروج"
+
+msgid "Layout Options"
+msgstr "صفحه بندی"
+
+msgid "Fixed layout"
+msgstr "صفحه بندی ثابت"
+
+msgid "Activate the fixed layout. You can't use fixed and boxed layouts together"
+msgstr "صفحه بندی ثابت را فعال کنید. شما قادر به استفاده همزمان از صفحه بندیای ثابت و جعبه ای نمیباشید. "
+
+msgid "Boxed Layout"
+msgstr "صفحه بندی جعبه ای"
+
+msgid "Activate the boxed layout"
+msgstr "صفحه بندی جعبه ای را فعال کنید. "
+
+msgid "Toggle Sidebar"
+msgstr "موقعیت منوی سمت چپ را عوض کنید"
+
+msgid "Toggle the left sidebar's state (open or collapse)"
+msgstr "موقعیت منوی سمت چپ را عوض کنید (باز ویا بسته)"
+
+msgid "Sidebar Expand on Hover"
+msgstr "به هنگام حرکت به سمت منو باز شود "
+
+msgid "Let the sidebar mini expand on hover"
+msgstr "به هنگام حرکت به سمت منوی چپ بسته  به صورت خودکار  باز شود"
+
+msgid "Toggle Right Sidebar Slide"
+msgstr "فعال سازی منوی سمت راست"
+
+msgid "Toggle between slide over content and push content effects"
+msgstr "با فعالسازی منوی سمت راست انرا باز کنید ویا ببندید"
+
+msgid "Toggle Right Sidebar Skin"
+msgstr "شابلون منوی سمت راست"
+
+msgid "Toggle between dark and light skins for the right sidebar"
+msgstr "برای منوی سمت راست شابلونهای تیره ویا رنگ روشن را فعال کنید"
+
+msgid "Skins"
+msgstr "شابلونها"
+
+msgid "Blue"
+msgstr "آبی"
+
+msgid "Black"
+msgstr "سیاه"
+
+msgid "Purple"
+msgstr "بنفش"
+
+msgid "Green"
+msgstr "سبز"
+
+msgid "Red"
+msgstr "قرمز"
+
+msgid "Yellow"
+msgstr "زرد"
+
+msgid "Blue Light"
+msgstr "آبی کمرنگ"
+
+msgid "Black Light"
+msgstr "خاکستری"
+
+msgid "Purple Light"
+msgstr "صورتی کمرنگ"
+
+msgid "Green Light"
+msgstr "سبز کمرنگ"
+
+msgid "Red Light"
+msgstr "قرمز کمرنگ"
+
+msgid "Yellow Light"
+msgstr "زرد کمرنگ"
+
+msgid "Recent Activities"
+msgstr "آخرین فعالیتها"
+
+msgid "Tasks Progress"
+msgstr "لیست کارها"
+
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+msgid "Report panel usage"
+msgstr "استفاده از پانل گزارش"
+
+msgid "Some information about this general settings option"
+msgstr "برخی اطلاعات جهت استفاده از پانل گزارش"
+
+msgid "Allow mail redirect"
+msgstr "تغییر مسیر پست"
+
+msgid "Other sets of options are available"
+msgstr "سایر تنظیمات"
+
+msgid "Expose author name in posts"
+msgstr "مشاهده نام فرستنده پیام"
+
+msgid "Allow the user to show his name in blog posts"
+msgstr "مشاهده نام کاربران در پیامهای ارسالی در وبلاگ"
+
+msgid "Chat Settings"
+msgstr "تنظیمات گپ"
+
+msgid "Show me as online"
+msgstr "مشاهده آنلاین"
+
+msgid "Turn off notifications"
+msgstr "خاموش کردن اطلاع رسانی"
+
+msgid "Delete chat history"
+msgstr "پاک کردن پیشینه گپ"
+
+msgid "All rights reserved."
+msgstr "تمام حقوق محفوظ میباشد"
+
+msgid "Copyright"
+msgstr "حق تالیف"
+
+msgid "Version"
+msgstr "نسخه"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "Welcome to OSTIM Virtual Enterprise System"
+msgstr "به سیستم شرکت مجازی OSTIM خوش آمدید "
+
+msgid "An error occurred"
+msgstr "یک خطا رخ داده "
+
+msgid "Message"
+msgstr "پیام"
+
+msgid "Stack trace"
+msgstr "ردیابی"
+
+msgid "Previous exceptions"
+msgstr "استثناهای قبلی"
+
+msgid "No Exception available"
+msgstr "قاعده استثنا در دسترس نیست"
+
+msgid "A 404 error occurred"
+msgstr "خطای 404"
+
+msgid "The requested controller was unable to dispatch the request."
+msgstr "قادر به پاسخگویی به درخواست شما نمیباشد"
+
+msgid "The requested controller could not be mapped to an existing controller class."
+msgstr "کنترلر مورد نیاز درخواست شما در دسترس نمیباشد"
+
+msgid "The requested controller was not dispatchable."
+msgstr "کنترلر مورد درخواست قابل ارسال نیست"
+
+msgid "The requested URL could not be matched by routing."
+msgstr "آدرس درخواستی با مسیریاب همسان نمیباشد "
+
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "علت خطای 404 در حال حاضر مشخص نمیباشد"
+
+msgid "Controller"
+msgstr "کنترل کننده"
+
+msgid "resolves to %s"
+msgstr "در اینجا حل میشود: %s"
+
+msgid "Exception"
+msgstr "استثنا"
+
+msgid "Help"
+msgstr "راهنما"
+
+msgid "Frequently Asked Questions"
+msgstr "سوالات متداول"
+
+msgid "Languages"
+msgstr "زبانها"
+
+msgid "Learn more"
+msgstr "بیشتر بدانیم"
+
+msgid "Our Job"
+msgstr "تخصص ما"
+
+msgid "VE Team"
+msgstr "تیم شرکت مجازی"
+
+msgid "Overall Manufactuiring Area"
+msgstr "مجموع مساحت تولیدی"
+
+
+msgid "Machine Park Size"
+msgstr "مجموع ماشین آلات تولیدی"
+
+
+msgid "Overall Enterprise Number"
+msgstr "تعداد شرکتهای ثبت شده"
+
+
+msgid "Employees"
+msgstr "مجموع کارکنان"
+
+
+msgid "Marketing and Consulting"
+msgstr "بازیریابی و مشاوره"
+
+
+msgid "Our Organization"
+msgstr "سازمان ما"
+
+
+msgid "Imports"
+msgstr "واردات"
+
+
+msgid "Exports"
+msgstr "صادرات"
+
+
+msgid "Our Employees"
+msgstr "کارکنان ما"
+
+
+msgid "Our Services"
+msgstr "خدمات ما"
+
+
+msgid "Our Portfolio"
+msgstr "پورتفولیو"
+
+
+msgid "Load More"
+msgstr "بارگذاری مضاعف"
+
+
+msgid "Our Clients"
+msgstr "مشتریان ما"
+
+
+msgid "Order"
+msgstr "سفارش"
+
+
+msgid "Request for Quote"
+msgstr "درخواست تکلیف"
+
+
+msgid "Contact us"
+msgstr "ارتباط با ما"
+
+
+msgid "Name"
+msgstr "نام"
+
+
+msgid "Email"
+msgstr "ایمیل"
+
+
+
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+
+msgid "Negotiation"
+msgstr "مذاکره"
+
+
+msgid "Auction"
+msgstr "مزایده ویا مناقصه"
+
+
+msgid "Auctioning"
+msgstr "مزایده ویا مناقصه"
+
+
+msgid "Latest News"
+msgstr "آخرین اخبار"
+
+
+msgid "Integrating the Capabilities and Capacities of more than 5,000 Companies with 60,000 Employees"
+msgstr "یکپارچه سازی قابلیت ها و ظرفیت تولیدی منطقه صنعتی اوستیم با بیش از 5000 شرکت تولیدی و 60000 پرسنل"
+
+
+msgid "Opening OSTIM manufacturing capabilities to the customers from all over the world"
+msgstr "ارائه خدمات تولیدی شرکتهای فعال در منطقه صنعتی اوستیم به تمامی مشتریان از اقصا نقاط جهان"
+
+
+
+msgid "Company Registration"
+msgstr "ثبت شرکت جدید"
+
+msgid "Company"
+msgstr "شرکت"
+
+msgid "Virtual Enterprise Company Registration"
+msgstr "ثبت نام شرکت "
+
+msgid "General Information"
+msgstr "اطلاعات عمومی"
+
+msgid "Communication"
+msgstr "ارتباطات"
+
+msgid "Financial"
+msgstr "مالی"
+
+msgid "Personel"
+msgstr "پرسنل"
+
+msgid "Logo"
+msgstr "آرم شرکت"
+
+msgid "Tax Number"
+msgstr "شماره مالیاتی شرکت"
+
+msgid "Tax Office"
+msgstr "شعبه مالیاتی وابسته"
+
+msgid "Social Security Number"
+msgstr "شماره تامین اجتماعی"
+
+msgid "Foundation Date"
+msgstr "تاریخ تاسیس"
+
+msgid "Web Address"
+msgstr "آدرس اینترنتی"
+
+msgid "Submit"
+msgstr "ثبت"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Building Type"
+msgstr "نوع ساختمان"
+
+msgid "Building Name"
+msgstr "نام ساختمان"
+
+msgid "Country"
+msgstr "کشور"
+
+msgid "State"
+msgstr "ایالت"
+
+msgid "Province"
+msgstr "استان"
+
+msgid "City"
+msgstr "شهر"
+
+msgid "District"
+msgstr "منطقه"
+
+msgid "Village"
+msgstr "روستا"
+
+msgid "Street"
+msgstr "خیابان"
+
+msgid "Alley"
+msgstr "کوچه"
+
+msgid "Number"
+msgstr "پلاک"
+
+msgid "Postal Code"
+msgstr "کد پستی"
+
+msgid "Telephone"
+msgstr "تلفن"
+
+msgid "Fax"
+msgstr "فاکس"
+
+msgid "Update"
+msgstr "به روز رسانی"
+
+msgid "Add New Address"
+msgstr "اضافه کردن آدرس جدید"
+
+msgid "Update Company Information"
+msgstr "به روز رسانی اطلاعات شرکت"
+
+msgid "List of Companies"
+msgstr "لیست شرکتها"
+
+msgid "List of Machine Tools"
+msgstr "لیست ماشین ابزار"
+
+msgid "New Submission"
+msgstr "ثبت جدید"
+
+msgid "Manufacturing Machine Tools"
+msgstr "ماشین ابزار تولیدی"
+
+msgid "Quality Control Equipment"
+msgstr "تجهیزات کنترل کیفی"
+
+msgid "Others"
+msgstr "غیره"
+
+msgid "Manufacturing Operation Type"
+msgstr "نوع عملیات تولیدی"
+
+msgid "Machine Tool Type"
+msgstr "نوع ماشین ابزار"
+
+msgid "Add New Machine Tool"
+msgstr "ثبت ماشین ابزار جدید"
+
+msgid "Measurement Process Type"
+msgstr "نوع روش اندازه گیری"
+
+msgid "Quality Control Tool Type"
+msgstr "نوع تجهیزات کنترل کیفی"
+
+msgid "Add New Q.C. Device"
+msgstr "ثبت تجهیزات اندازه گیری جدید"
+
+msgid "Update Machine Tool Information"
+msgstr "به روز رسانی اطلاعات ماشین ابزار"
+
+msgid "Add New Device"
+msgstr "ثبت تجهیزات جدید"
+
+msgid "Software Information"
+msgstr "اطلاعات نرم افزار"
+
+msgid "List of Software"
+msgstr "لیست نرم افزار"
+ 
+msgid "Update Information"
+msgstr "به روز رسانی اطلاعات"
+
+
+msgid "Update software information"
+msgstr "به روز رسانی اطلاعات نرم افزار"
+
+msgid "Add New Software"
+msgstr "ثبت نرم افزار جدید"
+
+msgid "Select a country ... "
+msgstr " ... کشور انتخاب کنید"
+
+msgid "Select a province ... "
+msgstr " ... استان انتخاب کنید"
+
+msgid "Select a district ... "
+msgstr " ... شهر و یا شهرستان انتخاب کنید"
+
+msgid "Select a village ... "
+msgstr " ... منطقه و یا بخش انتخاب کنید"
+
+msgid "Search..."
+msgstr "...جستجو"
