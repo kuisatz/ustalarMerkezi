@@ -14,10 +14,10 @@ return array(
         'SFDM',
         'SanalFabrika',
         'Companies',
-        'Users',
         'Error',
         'Supervisor',
         'Definitions',
+        'Signup'
     ),
     
     // These are various options for the listeners attached to the ModuleManager
@@ -87,7 +87,9 @@ return array(
             'sessionExpireControler' => 'Custom\Services\Session\FactoryServiceSessionExpireControlerLocator',
             'sessionManagerDefault' => 'Custom\Services\Session\FactoryServiceSessionManagerDefaultLocator',
             'dbAdapterPostgre' => 'Custom\Services\Database\FactoryServiceDbAdapterPostgre',
+            'servicePostgrePdo' => 'Custom\Services\Database\FactoryServicePostgreSQLConnectPDO',
             'sessionDbSaveHandler' => 'Custom\Services\Session\FactoryServiceSessionDbSaveLocator',
+            'serviceUserIDFinder' => 'Custom\Services\Session\FactoryServiceUserIDFinder',
             'authenticationDbAdapterPostgre' => 'Custom\Services\Authentication\FactoryServiceAuthenticationDbAdapterPostgre',
             'authenticationManagerDefault' => 'Custom\Services\Authentication\FactoryServiceAuthenticationLocator',
             'authenticationControlerLocator' => 'Custom\Services\Authentication\FactoryServiceAuthenticationControlerLocator',
@@ -106,6 +108,9 @@ return array(
             'servicePublicKeyGenerator' => 'Custom\Services\Authentication\FactoryServicePublicKeyGenerator',
             'servicePublicKeySaver' => 'Custom\Services\Authentication\FactoryServicePublicKeySaver',
             'servicePublicKeyReader' => 'Custom\Services\Authentication\FactoryServicePublicKeyReader',
+            'serviceRoleSessionWriter' => 'Custom\Services\Acl\FactoryServiceRoleSessionWriter',
+            'serviceAclRolePagesCreator' => 'Custom\Services\Acl\FactoryServiceACLRolePagesCreator',
+            'serviceAclRoleFinder' => 'Custom\Services\Acl\FactoryServiceACLRoleFinder',
         ],  
         
     ),

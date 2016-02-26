@@ -17,14 +17,13 @@ class FactoryServicePublicKeyGenerator  implements FactoryInterface{
             $sql = "          
             SELECT                
                 REPLACE(TRIM(SUBSTRING(crypt(sf_private_key_value,gen_salt('xdes')),6,20)),'/','*') AS public_key
-                FROM info_users a              
-                INNER JOIN act_users_rrpmap usr ON usr.info_users_id = a.id AND usr.active = 0 AND usr.deleted = 0 
-		INNER JOIN sys_acl_rrpmap sarmap ON sarmap.id = usr.rrpmap_id AND sarmap.active=0 AND sarmap.deleted =0 
-                INNER JOIN sys_acl_roles sar ON sar.id = sarmap.role_id AND sar.active=0 AND sar.deleted=0 
+                FROM info_users a 
+                INNER JOIN sys_acl_roles sar ON sar.id = a.role_id AND sar.active=0 AND sar.deleted=0 
                 WHERE a.username = :username 
                     AND a.password = :password   
                     AND a.deleted = 0 
                     AND a.active = 0 
+                    Limit 1 
                 
                                  ";
 
@@ -34,13 +33,14 @@ class FactoryServicePublicKeyGenerator  implements FactoryInterface{
             //echo debugPDO($sql, $parameters);
             $statement->execute();
             $result = $statement->fetchAll(\PDO::FETCH_ASSOC);
-            $publicKey = $result[0]['public_key'];
+            $publicKey = true;
+            if(isset($result[0]['public_key'])) $publicKey = $result[0]['public_key'];
 
             $errorInfo = $statement->errorInfo();
             if ($errorInfo[0] != "00000" && $errorInfo[1] != NULL && $errorInfo[2] != NULL)
                 throw new \PDOException($errorInfo[0]);
             //return array("found" => true, "errorInfo" => $errorInfo, "resultSet" => $result);
-            return $result[0]['public_key'];
+            return $publicKey;
         } catch (\PDOException $e /* Exception $e */) {
             $pdo->rollback();
             return array("found" => false, "errorInfo" => $e->getMessage());

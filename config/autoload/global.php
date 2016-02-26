@@ -19,22 +19,22 @@ return array(
        'SFDM' => 'layout/sfdm.phtml',
        'Sanalfabrika' => 'layout/sanalfabrika.phtml',
        'Companies' => 'layout/companies.phtml',
-       'Users' => 'layout/users.phtml',
        'Error' => 'layout/error.phtml',
        'Definitions' => 'layout/definitions.phtml',
        'Supervisor' => 'layout/supervisor.phtml',
+       'Signup' => 'layout/signup.phtml',
         
    ),
     'action_layouts' => array(
         'SFDM' => array(
             'acldefinition' => 'layout/acldefinitionLayout.phtml',
+            'profile' => 'layout/profile.phtml',
+            'confirm' => 'layout/confirm.phtml',
+            'machinetest' => 'layout/machinetest.phtml'
                         ),
         'Companies' => array(
-            'registration' => 'layout/registrationLayout.phtml',
+            'companyregistration' => 'layout/companyregistrationLayout.phtml',
             'meeting' => 'layout/meetingLayout.phtml',
-                        ),
-        'Users' => array(
-            'registration' => 'layout/registrationLayout.phtml',
                         ),
         'Supervisor' => array(
             'coreg' => 'layout/coregLayout.phtml',
@@ -44,8 +44,18 @@ return array(
             'umonitoring' => 'layout/umonitoringLayout.phtml',
             'cevaluation' => 'layout/cevaluationLayout.phtml',
                         ),
-   )
-    ,
+        'Signup' => array(
+            'signup' => 'layout/signup.phtml',
+                        ),
+        'Sanalfabrika' => array(
+            'registration' => 'layout/registrationLayout.phtml',
+            'login' => 'layout/loginLayout.phtml',
+            'cmt' => 'layout/cmtLayout.phtml'
+        ),
+        'Error' => array(
+            'index' => 'layout/401layout.phtml',
+                        ),
+   ),
     'session' => array(
         'config' => array(
             'class' => 'Zend\Session\Config\SessionConfig',     
@@ -87,5 +97,49 @@ return array(
         'Supervisor',
         'Companies'
 
+    ),
+    'ACL_pages' => array(
+        'consultant' => array(
+                         'action' => array('sfdm' => array ('index',
+                                                            'profile',
+                                                            'confirm',
+                                                            'machinetest'),
+                                     'admin' => array('index'),
+                                     'login' => array('index','logout'),
+                                     'sanalfabrika' => array ('index',
+                                                              'registration',
+                                                              'login',
+                                                              'cmt')),
+                   ),
+        'supervisor' => array(
+                         'parent' => 'consultant',
+                         'action' => array('sfdm' => array ('index'))
+                   ),
+        'admin' => array(
+                         'parent' => 'supervisor',
+                         'action' => array('admin' => array ('index'),
+                                           )
+                   ),
+        'guest' => array(
+                         'action' => array('sanalfabrika' => array ('index',
+                                                                    'registration',
+                                                                    'login',
+                                                                    'cmt'),
+                                     'login' => array('index'),)
+                   ),
+        'new user' => array(
+                         'action' => array('sanalfabrika' => array ('index'))
+                   ),
+        
+        'firm user' => array(
+                         'parent' => 'new user',
+                         'action' => array('sanalfabrika' => array ('index'))
+                   ),
+        'firm owner' => array(
+                         'parent' => 'firm user',
+                         'action' => array('sanalfabrika' => array ('index'))
+                   ),
+        
+        
     )
 );

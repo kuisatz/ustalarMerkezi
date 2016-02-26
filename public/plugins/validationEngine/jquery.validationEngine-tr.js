@@ -1,20 +1,30 @@
-(function($){
-    $.fn.validationEngineLanguage = function(){
+(function ($) {
+    $.fn.validationEngineLanguage = function () {
     };
+
+
+    /*
+     * Turkish Charachters are added to some fields.
+     * sfUserName field added..
+     * 
+     * @author: Bahram Lotfi Sadigh
+     * @Since: 2016.1.27
+     */
+
     $.validationEngineLanguage = {
-        newLang: function(){
+        newLang: function () {
             $.validationEngineLanguage.allRules = {
-                "required": { // Add your regex rules here, you can take telephone as an example
+                "required": {// Add your regex rules here, you can take telephone as an example
                     "regex": "none",
                     "alertText": "* Bu alan zorunludur",
                     "alertTextCheckboxMultiple": "* Lütfen bir seçeneği işaretleyiniz",
                     "alertTextCheckboxe": "* Bu onay kutusu zorunludur"
                 },
-                "requiredInFunction": { 
-                    "func": function(field, rules, i, options){
+                "requiredInFunction": {
+                    "func": function (field, rules, i, options) {
                         return (field.val() == "test") ? true : false;
                     },
-                    "alertText": "* Field must equal test"
+                    "alertText": "* Field must be equal to 'test'"
                 },
                 "minSize": {
                     "regex": "none",
@@ -26,9 +36,9 @@
                     "alertText": "* Bu alana en fazla ",
                     "alertText2": " karakter girebilirsiniz"
                 },
-                    "groupRequired": {
+                "groupRequired": {
                     "regex": "none",
-                    "alertText": "* You must fill one of the following fields"
+                    "alertText": "* Aşağıdaki alanlardan en az birisini doldurmalısınız"
                 },
                 "min": {
                     "regex": "none",
@@ -48,7 +58,7 @@
                     "alertText": "* Lütfen ",
                     "alertText2": " tarihinden daha geri bir tarih giriniz "
 
-                },	
+                },
                 "maxCheckbox": {
                     "regex": "none",
                     "alertText": "* En fazla ",
@@ -103,16 +113,28 @@
                     "alertText": "* Bu alanda sadece rakam olmalı"
                 },
                 "onlyLetterSp": {
-                    "regex": /^[a-zA-Z\ \']+$/,
+                    "regex": /^[a-zA-ZıçşğöüİÇŞĞÜÖ\ \']+$/,
                     "alertText": "* Bu alanda sadece harf olmalı"
                 },
-				"onlyLetterAccentSp":{
+                "onlyLetterAccentSp": {
                     "regex": /^[a-z\u00C0-\u017F\ \']+$/i,
                     "alertText": "* Bu alanda sadece harf olmalı"
                 },
                 "onlyLetterNumber": {
-                    "regex": /^[0-9a-zA-Z]+$/,
+                    "regex": /^[0-9a-zA-ZıçşğöüİÇŞĞÜÖ]+$/,
                     "alertText": "* Bu alanda özel karakterler olamaz"
+                },
+                "sfUserName": {
+                    "regex": /^[0-9a-zA-Z_@ıçşğöüİÇŞĞÜÖ.]+$/,
+                    "alertText": "* Bu alanda özel karakterler olamaz"
+                },
+                "sfAddress": {
+                    "regex": /^[0-9a-zA-Z_@ıçşğöüİÇŞĞÜÖ]+$/,
+                    "alertText": "* Bu alanda özel karakterler olamaz"
+                },
+                "dunsNumber": {
+                    "regex": /^[0-9\ ]+$/,
+                    "alertText": "* Bu alanda sadece rakam olmalı"
                 },
                 // --- CUSTOM RULES -- Those are specific to the demos, they can be removed or changed to your likings
                 "ajaxUserCall": {
@@ -122,7 +144,7 @@
                     "alertText": "* Bu kullanıcı adı kullanımda",
                     "alertTextLoad": "* Doğrulanıyor, lütfen bekleyiniz"
                 },
-				"ajaxUserCallPhp": {
+                "ajaxUserCallPhp": {
                     "url": "phpajax/ajaxValidateFieldUser.php",
                     // you may want to pass extra data on the ajax call
                     "extraData": "name=eric",
@@ -141,19 +163,19 @@
                     // speaks by itself
                     "alertTextLoad": "* Doğrulanıyor, lütfen bekleyiniz"
                 },
-				 "ajaxNameCallPhp": {
-	                    // remote json service location
-	                    "url": "phpajax/ajaxValidateFieldName.php",
-	                    // error
-	                    "alertText": "* Bu isim kullanımda",
-	                    // speaks by itself
-	                    "alertTextLoad": "* Doğrulanıyor, lütfen bekleyiniz"
-	                },
+                "ajaxNameCallPhp": {
+                    // remote json service location
+                    "url": "phpajax/ajaxValidateFieldName.php",
+                    // error
+                    "alertText": "* Bu isim kullanımda",
+                    // speaks by itself
+                    "alertTextLoad": "* Doğrulanıyor, lütfen bekleyiniz"
+                },
                 "validate2fields": {
                     "alertText": "* Lütfen 'HELLO' yazın"
                 }
             };
-            
+
         }
     };
     $.validationEngineLanguage.newLang();

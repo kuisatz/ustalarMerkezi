@@ -66,7 +66,8 @@ Lang.prototype.pack.th = {
 		"Property Description":"รายละเอียดของประกาศ",
 		"Synopsis":"รายละเอียดย่อในประกาศ",
 		"Full Description":"รายละเอียดเพิ่มเติมสำหรับผู้สนใจประกาศ",
-		"Property Photos":"รูปภาพสถานที่"
+		"Property Photos":"รูปภาพสถานที่",
+               // "test" : "english"
 	},
 	"regex": [
 		[/Budget/, "งบประมาณ"],

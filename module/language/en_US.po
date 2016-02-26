@@ -372,9 +372,6 @@ msgstr ""
 msgid "Virtual Enterprise Company Registration"
 msgstr ""
 
-msgid "General Information"
-msgstr ""
-
 msgid "Communication"
 msgstr ""
 
@@ -529,4 +526,186 @@ msgid "Select a village ... "
 msgstr ""
 
 msgid "Search..."
+msgstr ""
+
+
+msgid "General Information"
+msgstr ""
+
+msgid "Address Information"
+msgstr ""
+
+msgid "Communication Information"
+msgstr ""
+
+msgid "Company Information"
+msgstr ""
+
+
+msgid "Please select a country from list..."
+msgstr ""
+
+msgid "Please select a city from list..."
+msgstr ""
+
+msgid "Please select a district from list..."
+msgstr ""
+
+msgid "Please select a village from list..."
+msgstr ""
+
+msgid "Continue to Address Information"
+msgstr ""
+
+msgid "Continue to Communication Information"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Registration"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "Last Name"
+msgstr ""
+
+msgid "Prefered Username"
+msgstr ""
+
+msgid "Prefered Password"
+msgstr ""
+
+msgid "Repeat Password"
+msgstr ""
+
+msgid "ID Number (TC Kimlik No for Turkish Citizens)"
+msgstr ""
+
+msgid "Prefered Language"
+msgstr ""
+
+msgid "Make my profile public"
+msgstr ""
+
+msgid "Communication Type"
+msgstr ""
+
+msgid "Please select a communication type from list..."
+msgstr ""
+
+msgid "Set this number as your default contact number"
+msgstr ""
+
+msgid "Contact Number"
+msgstr ""
+
+msgid "Submit Number"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Added Contacts"
+msgstr ""
+
+msgid "I agree with the Terms and Conditions"
+msgstr ""
+
+msgid "Complete User Submittion Process"
+msgstr ""
+
+msgid "Continue to Company Information"
+msgstr ""
+
+msgid "Company Name"
+msgstr ""
+
+msgid "Please select your prefered language from list..."
+msgstr ""
+
+msgid "Show all my registered addresses"
+msgstr ""
+
+msgid "My Registered Addresses"
+msgstr ""
+
+msgid "List of Contacts"
+msgstr ""
+
+msgid "Edit selected address"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Address type"
+msgstr ""
+
+msgid "Billing Address"
+msgstr ""
+
+msgid "Mailing Address"
+msgstr ""
+
+msgid "Task Progress"
+msgstr ""
+
+msgid "User registration"
+msgstr ""
+
+msgid "Company registration"
+msgstr ""
+
+msgid "Registration process"
+msgstr ""
+
+msgid "Address 1"
+msgstr ""
+
+msgid "Address 2"
+msgstr ""
+
+msgid "Show my password"
+msgstr ""
+
+msgid "Make my address information public"
+msgstr ""
+
+msgid "Make my contact information public"
+msgstr ""
+
+msgid "Show all my registered contact Information"
+msgstr ""
+
+msgid "DUNS Number"
+msgstr ""
+
+msgid "Company Short Name"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "About Us"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "News"
+msgstr ""
+
+msgid "Contacts"
+msgstr ""
+
+msgid "Submenus"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Ownership Status"
 msgstr ""

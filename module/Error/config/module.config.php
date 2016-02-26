@@ -10,20 +10,21 @@
      'router' => array(
          'routes' => array(
              
-             /*'error' => array(
+             'error' => array(
                  'type'    => 'segment',
                  'options' => array(
-                     'route'    => '/ostim/sanalfabrika/error/[:lang][/:action]',   
+                     //'route'    => '/ostim/sanalfabrika/error/[:lang][/:action]',   
+                     'route'    => '/ostim/sanalfabrika/error/[/:action]',   
                      'constraints' => array(
                          'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
-                         'lang' => '((en)|(tr)|(ru)|(zh)|(de)|(ar)|(fa))',     
+                         //'lang' => '((en)|(tr)|(ru)|(zh)|(de)|(ar)|(fa))',     
                      ),
                      'defaults' => array(
                          'controller' => 'Error\Controller\Error',
                          'action'     => 'index',
                      ),
                  ),
-             ),*/
+             ),
          ),
      ),
      'translator' => array(
@@ -42,6 +43,7 @@
              'admin' => __DIR__ . '/../view',  
          ),*/ 
          'not_found_template'       => 'error/404',
+         'exception_template'       => 'error/index',
          'template_map' => array(
             'layout/layout'           => __DIR__ . '/../view/layout/error.phtml',   
             'error/index/index' => __DIR__ . '/../view/errorview/error/index.phtml',
