@@ -50,7 +50,17 @@ return array(
         'Sanalfabrika' => array(
             'registration' => 'layout/registrationLayout.phtml',
             'login' => 'layout/loginLayout.phtml',
-            'cmt' => 'layout/cmtLayout.phtml'
+            'cmt' => 'layout/cmtLayout.phtml',
+            'userprofile' => 'layout/userprofileLayout.phtml',
+            'userprofilepersonal' => 'layout/userprofilepersonalLayout.phtml',
+            'userprofileusers' => 'layout/userprofileusersLayout.phtml',
+            'userprofileprojects' => 'layout/userprofileprojectsLayout.phtml',
+            'userprofilecomments' => 'layout/userprofilecommentsLayout.phtml',
+            'userprofilehistory' => 'layout/userprofilehistoryLayout.phtml',
+            'userprofilesettings' => 'layout/userprofilesettingsLayout.phtml',
+            'companyprofile' => 'layout/companyprofileLayout.phtml',
+            'companyperformancemetersprofile' => 'layout/companyperformancemetersprofileLayout.phtml',
+            'companyproductsprofile' => 'layout/companyproductsprofileLayout.phtml'
         ),
         'Error' => array(
             'index' => 'layout/401layout.phtml',
@@ -95,7 +105,24 @@ return array(
         'Admin',
         'SFDM',
         'Supervisor',
-        'Companies'
+        'Companies',
+        'Sanalfabrika'
+
+    ),
+    'ActionsTobeAuthenticated' => array(
+        'Sanalfabrika' => array(
+            'cmt',
+            'userprofile',
+            'userprofilepersonal',
+            'userprofileusers',
+            'userprofileprojects',
+            'userprofilecomments',
+            'userprofilehistory',
+            'userprofilesettings',
+            'companyprofile',
+            'companyperformancemetersprofile',
+            'companyproductsprofile'       
+        ),
 
     ),
     'ACL_pages' => array(
@@ -109,7 +136,18 @@ return array(
                                      'sanalfabrika' => array ('index',
                                                               'registration',
                                                               'login',
-                                                              'cmt')),
+                                                              'cmt',
+                                                              'userprofile',
+                                                              'userprofilepersonal',
+                                                              'userprofileusers',
+                                                              'userprofileprojects',
+                                                              'userprofilecomments',
+                                                              'userprofilehistory',
+                                                              'userprofilesettings',
+                                                              'companyprofile',
+                                                              'companyperformancemetersprofile',
+                                                              'companyproductsprofile'   
+                                                              )),
                    ),
         'supervisor' => array(
                          'parent' => 'consultant',
@@ -124,20 +162,32 @@ return array(
                          'action' => array('sanalfabrika' => array ('index',
                                                                     'registration',
                                                                     'login',
-                                                                    'cmt'),
+                                                                    ),
                                      'login' => array('index'),)
                    ),
         'new user' => array(
-                         'action' => array('sanalfabrika' => array ('index'))
+                         'parent' => 'guest',
+                         'action' => array('sanalfabrika' => array ('cmt',
+                                                                    'userprofile',
+                                                                    'userprofilepersonal',
+                                                                    'userprofileusers',
+                                                                    'userprofileprojects',
+                                                                    'userprofilecomments',
+                                                                    'userprofilehistory',
+                                                                    'userprofilesettings',
+                                                                    'companyprofile',
+                                                                    'companyperformancemetersprofile',
+                                                                    'companyproductsprofile' 
+                                                                    ))
                    ),
         
         'firm user' => array(
                          'parent' => 'new user',
-                         'action' => array('sanalfabrika' => array ('index'))
+                         //'action' => array('sanalfabrika' => array ('index'))
                    ),
         'firm owner' => array(
                          'parent' => 'firm user',
-                         'action' => array('sanalfabrika' => array ('index'))
+                         //'action' => array('sanalfabrika' => array ('index'))
                    ),
         
         

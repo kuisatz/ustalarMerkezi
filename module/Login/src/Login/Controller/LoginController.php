@@ -1,5 +1,11 @@
 <?php
-
+/**
+ * OSTİM TEKNOLOJİ Framework 
+ *
+ * @link      https://github.com/corner82/sanalfabrika for the canonical source repository
+ * @copyright Copyright (c) 2016 OSTİM TEKNOLOJİ (http://www.ostim.com.tr)
+ * @license   
+ */
  namespace Login\Controller;
 
  use Zend\Mvc\Controller\AbstractActionController;
@@ -106,15 +112,28 @@
      
     public function logoutAction()
     {
+        $publicKey = $this->getServiceLocator()
+                            ->get('servicePublicKeyReader'); 
+        
         $authManager = $this->getServiceLocator()->get('authenticationManagerDefault');
         $authManager->getStorage()->clear();
+        
+        /**
+        * user log out action logged by rabbitMQ messaging
+        * @author Mustafa Zeynel Dağlı
+        * @since 17/03/2016
+        */
+       $this->getServiceLocator()->get('serviceLogoutLogRabbitMQ'); 
+        
+        
         /**
          * when logout the public key created in session table is being erased
          * @author Mustafa Zeynel Dağlı
          * @since 04/01/2016
          */
         $this->getServiceLocator()->get('servicePublicKeySaver');
-        return $this->redirect()->toRoute('login');
+        //return $this->redirect()->toRoute('login');
+        $this->getServiceLocator()->get('serviceLogoutRedirect');
     }
      
 

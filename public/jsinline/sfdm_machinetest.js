@@ -1,7 +1,6 @@
 $(document).ready(function () {
-    
-    
-    
+
+
     /**
      * return operation type tools
      * @returns {boolean}
@@ -9,32 +8,31 @@ $(document).ready(function () {
      * @since 10/02/2016
      */
     window.getOperationTypeTools = function () {
-        
+
         /*try {
-            writeMyFile(theData); //This may throw a error
-          } catch(e) {  
-            handleError(e); // If we got a error we handle it
-          } finally {
-            closeMyFile(); // always close the resource
-          }*/
+         writeMyFile(theData); //This may throw a error
+         } catch(e) {  
+         handleError(e); // If we got a error we handle it
+         } finally {
+         closeMyFile(); // always close the resource
+         }*/
 
         $.ajax({
             url: 'https://proxy.sanalfabrika.com/SlimProxyBoot.php',
-            data: { url:'pkFillConsultantOperationsToolsDropDown_sysOperationTypesTools' ,
-                    language_code : 'tr',
-                    main_group : 0,
-                    pk : $("#pk").val()}, 
+            data: {url: 'pkFillConsultantOperationsToolsDropDown_sysOperationTypesTools',
+                language_code: 'tr',
+                main_group: 0,
+                pk: $("#pk").val()},
             type: 'GET',
             dataType: 'json',
             success: function (datas, textStatus, jqXHR) {
-                if(datas.length!==0) {
+                if (datas.length !== 0) {
                     $('#dropdownOperationsTools').ddslick('destroy');
                     $('#dropdownOperationsTools').ddslick({
-                        data : datas,
-                        width:'100%',
+                        data: datas,
+                        width: '100%',
                         //selectText: "Select your preferred social network",
-                        imagePosition:"right",
-
+                        imagePosition: "right",
                     });
                     $('#dropdownOperationsToolsContainer').loadImager('removeLoadImage');
                 } else {
@@ -42,18 +40,18 @@ $(document).ready(function () {
                 }
             },
             error: function (jqXHR, textStatus, errorThrown) {
-                
-                console.error('"pkFillConsultantOperationsToolsDropDown_sysOperationTypes" servis hatası->'+textStatus);
+
+                console.error('"pkFillConsultantOperationsToolsDropDown_sysOperationTypes" servis hatası->' + textStatus);
             }
         });
     }
-    
+
     /**
      * operation type tool select box filling for please select item
      * @author Mustafa Zeynel Dağlı
      * @since 11/02/2016
      */
-    window.getOperationTypeToolsPleaseSelect = function() {
+    window.getOperationTypeToolsPleaseSelect = function () {
         var dropdownOperationsToolsData = [
             {
                 text: "Lütfen Onay Aracı Seçiniz",
@@ -63,147 +61,44 @@ $(document).ready(function () {
                 imageSrc: ""
             }
         ];
-        
+
         $('#dropdownOperationsTools').ddslick({
-            data : dropdownOperationsToolsData, 
-            width:'100%',
+            data: dropdownOperationsToolsData,
+            width: '100%',
             //selectText: "Select your preferred social network",
-            imagePosition:"right",
-            onSelected: function(selectedData){
+            imagePosition: "right",
+            onSelected: function (selectedData) {
                 //console.log(selectedData.selectedData.text);
-            }   
+            }
         });
-        if($('#dropdownOperationsToolsContainer').loadImager()!='undefined') {
+        if ($('#dropdownOperationsToolsContainer').loadImager() != 'undefined') {
             $('#dropdownOperationsToolsContainer').loadImager('removeLoadImage');
         }
-        
-    }
-    
-    /**
-     * machine property dialog test function
-     * @author Mustafa Zeynel Dağlı
-     * @todo this functionality will be implemented inside plugin after tests completed
-     */
-    window.testClick = function(e) {
-        //alert('testclick');
-        var invoker = e.target;
-        var lastID = $(invoker).attr('data-last-id')
-        console.log($(invoker).attr('data-last-id'));
-        BootstrapDialog.show({
-            data : { 
-                'last-id' : lastID },
-            title: 'Makina Özelliği Belirle',
-            message: function(dialogRef){
-                var $message = $('<div class="form-group">\n\
-                                    <label>Operasyon Tipi</label>\n\
-                                        <div class="input-group"> \n\
-                                            <span class="input-group-addon"><i class="fa fa-tag"></i></span>\n\
-                                            <div id="dropdownOperations"></div>\n\
-                                        </div>\n\
-                                 </div>\n\
-                                <div class="form-group">\n\
-                                    <label>Onay Aracı</label>\n\
-                                        <div id="dropdownOperationsToolsContainer"  class="input-group">\n\
-                                            <span class="input-group-addon"><i class="fa fa-tag"></i></span>\n\
-                                            <div id="dropdownOperationsTools"></div>\n\
-                                        </div>\n\
-                                </div>');
-                /*var $button = $('<button class="btn btn-primary btn-lg btn-block">Close the dialog</button>');
-                $button.on('click', {dialogRef: dialogRef}, function(event){
-                    event.data.dialogRef.close();
-                });
-                $message.append($button);*/
 
-                return $message;
-            },
-            onshown: function(dialogRef){
-                //var $invoker = $(e.relatedTarget);
-                //dialogRef.data('trigger');
-                //console.log(dialogRef.event.relatedTarget);
-                window.getOperationTypeToolsPleaseSelect();
-                 $.ajax({
-                    url: 'https://proxy.sanalfabrika.com/SlimProxyBoot.php',
-                    data: { url:'pkFillConsultantOperationsDropDown_sysOperationTypes' ,
-                            language_code : 'tr',
-                            main_group : 2,
-                            pk : $("#pk").val()}, 
-                    type: 'GET',
-                    dataType: 'json',
-                    success: function (data, textStatus, jqXHR) {
-                        if(data.length!==0) {
-                            $('#dropdownOperations').ddslick({
-                                data : data, 
-                                width:'100%',
-                                //selectText: "Select your preferred social network",
-                                imagePosition:"right",
-                                onSelected: function(selectedData){
-                                    //console.log(selectedData.selectedData.value);
-                                    if(selectedData.selectedData.value==6) {
-                                        $('#dropdownOperationsToolsContainer').loadImager();
-                                        $('#dropdownOperationsToolsContainer').loadImager('appendImage');
-                                        window.getOperationTypeTools();
-                                    } else {
-                                        $('#dropdownOperationsToolsContainer').loadImager();
-                                        $('#dropdownOperationsToolsContainer').loadImager('appendImage');
-                                        $('#dropdownOperationsTools').ddslick('destroy');
-                                        window.getOperationTypeToolsPleaseSelect();
-                                    }
-                                }   
-                            });
-                        } else {
-                            console.error('"pkFillConsultantOperationsDropDown_sysOperationTypes" servis datası boştur!!');
-                        }
-                    },
-                    error: function (jqXHR, textStatus, errorThrown) {           
-                        console.error('"pkFillConsultantOperationsDropDown_sysOperationTypes" servis hatası->'+textStatus);
-                    }
-                });
-           
-            },
-            description: 'Makina Özelliği Belirleyiniz...',
-            type: BootstrapDialog.TYPE_WARNING, // <-- Default value is BootstrapDialog.TYPE_PRIMARY
-            closable: true, // <-- Default value is false
-            draggable: true, // <-- Default value is false
-            buttons: [ {
-                icon: 'glyphicon glyphicon-ban-circle',
-                label: 'Tamam',
-                cssClass: 'btn-warning',
-                action: function(dialogItself){
-                    var id=dialogItself.getData('last-id');
-                    //console.log(dialogItself.getModalBody());
-                    var ddData = $('#dropdownOperations').data('ddslick');
-                    console.log(ddData.selectedData.text);
-                    console.log($('#label'+id).val(ddData.selectedData.text));
-                    $('#label1').focus();
-                    dialogItself.close();
-                }
-            }]
-        });
-       
     };
-    
-   /* var testTool = $(this).machineTree();
-    testTool.machineTree({
-        tested : function(event) {
-            alert('tested worked');
-        }
-        
-    });*/
-    
+
     $('#form-builder-template').formBuilder();
-    
-    
-    var tree = $('.tree2').machineTree();  
+
+    var tree = $('.tree2').machineTree();
     tree.machineTree('option', 'url', 'pkFillMachineToolGroups_sysMachineToolGroups');
     tree.machineTree('option', 'pk', $("#pk").val());
-    tree.machineTree('option', 'baseNodeCollapsedIcon','fa-hand-o-right');
-    tree.machineTree('option', 'baseNodeExpandedIcon','fa-hand-o-down');
+    tree.machineTree('option', 'baseNodeCollapsedIcon', 'fa-hand-o-right');
+    tree.machineTree('option', 'baseNodeExpandedIcon', 'fa-hand-o-down');
     tree.machineTree('setMainRoot');
     
-    
+    tree.machineTree({
+        getMachineProp : function(event, tree, node) { 
+            console.log(tree.options.url);
+            console.log(node.attr('id'));
+            tree.options.alpacaFormCreator = $('#selectedMTInformation').machinePropertyFormCreater();
+            tree.options.alpacaFormCreator.machinePropertyFormCreater('option', 'machineID', node.attr('id'));
+            tree.options.alpacaFormCreator.machinePropertyFormCreater('setMachinePropertyForm');
+        }
+    });
+
     //testTool.machineTree('test');  
-    
-    
+
+
     /**
      * machine tool tree
      * @author Mustafa Zeynel Dağlı
@@ -224,8 +119,8 @@ $(document).ready(function () {
         }
         e.stopPropagation();
     });
-    
-    
+
+
 
     /**
      * while widget todolist is being filled, loading image is displayed
@@ -234,7 +129,7 @@ $(document).ready(function () {
      */
     $('#todolistboxcontainer').loadImager();
     //$('#todolistbox').loadImager('appendImage');
-    
+
     /**
      * todo list box widget is being filled
      * @author Mustafa Zeynel Dağlı
@@ -249,26 +144,26 @@ $(document).ready(function () {
      */
     $.ajax({
         url: 'https://proxy.sanalfabrika.com/SlimProxyBoot.php',
-        data: { url:'pkGetConsWaitingForConfirm_blActivationReport' ,
-                pk : $("#pk").val()}, 
+        data: {url: 'pkGetConsWaitingForConfirm_blActivationReport',
+            pk: $("#pk").val()},
         type: 'GET',
         dataType: 'json',
         //data: 'rowIndex='+rowData.id,
         success: function (data, textStatus, jqXHR) {
             //console.log(data);
             $('#todolistboxcontainer').loadImager("removeLoadImage");
-            filler.todolistFiller('option','domObjectKey','span[data-fill="true"]');
-            filler.todolistFiller('option','otherDomObjectKeys','small[data-fill-number="true"],small[data-fill-number2="true"]');
-            filler.todolistFiller('option','otherDomObjectKeysDataLabels',new Array('sure'));
-            filler.todolistFiller('option','data',data);
+            filler.todolistFiller('option', 'domObjectKey', 'span[data-fill="true"]');
+            filler.todolistFiller('option', 'otherDomObjectKeys', 'small[data-fill-number="true"],small[data-fill-number2="true"]');
+            filler.todolistFiller('option', 'otherDomObjectKeysDataLabels', new Array('sure'));
+            filler.todolistFiller('option', 'data', data);
             filler.todolistFiller('fill');
-            
+
         },
         error: function (jqXHR, textStatus, errorThrown) {
 //            console.error(textStatus);
         }
     });
-    
+
     /**
      * page contetnt header widgets are filled here (small colorfull boxes)
      * @author Mustafa Zeynel Dağlı
@@ -276,11 +171,11 @@ $(document).ready(function () {
      */
     $.ajax({
         url: 'https://proxy.sanalfabrika.com/SlimProxyBoot.php',
-        data: { url:'pkGetConsultantUpDashBoardCount_blActivationReport' ,
-                pk : $("#pk").val()},
+        data: {url: 'pkGetConsultantUpDashBoardCount_blActivationReport',
+            pk: $("#pk").val()},
         type: 'GET',
         dataType: 'json',
-        language_id:647,
+        language_id: 647,
         //data: 'rowIndex='+rowData.id,
         success: function (data, textStatus, jqXHR) {
             $("#toplam_header_1_container").headerSetter(data[0]);
@@ -288,12 +183,11 @@ $(document).ready(function () {
             $("#toplam_header_3_container").headerSetter(data[2]);
             $("#toplam_header_4_container").headerSetter(data[3]);
             //$('#todolistbox').loadImager("removeLoadImage");
-            
+
         },
         error: function (jqXHR, textStatus, errorThrown) {
 //            console.error(textStatus);
         }
-
     });
 
     /**
@@ -303,11 +197,11 @@ $(document).ready(function () {
      */
     $.ajax({
         url: 'https://proxy.sanalfabrika.com/SlimProxyBoot.php',
-        data: { url:'pkGetConsultantOperation_blActivationReport' ,
-                pk : $("#pk").val()},
+        data: {url: 'pkGetConsultantOperation_blActivationReport',
+            pk: $("#pk").val()},
         type: 'GET',
         dataType: 'json',
-        language_id:647,
+        language_id: 647,
         //data: 'rowIndex='+rowData.id,
         success: function (data, textStatus, jqXHR) {
 //            console.warn(data);

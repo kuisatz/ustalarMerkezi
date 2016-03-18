@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SanalFabrika\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-23 22:17-0700\n"
-"PO-Revision-Date: 2015-12-23 13:08+0200\n"
+"PO-Revision-Date: 2016-03-03 13:40+0200\n"
 "Last-Translator: Bahram Lotfi Sadigh <bahram.lotfi@ostim.com.tr>\n"
 "Language-Team: OSTIM Teknoloji A.Ş. <info@ostim.com.tr>\n"
 "Language: tr_TR\n"
@@ -52,6 +52,9 @@ msgid "Organizations"
 msgstr ""
 
 msgid "ECO-OSTIM"
+msgstr ""
+
+msgid "OSTIM Services"
 msgstr ""
 
 msgid "Definitions"
@@ -528,7 +531,6 @@ msgstr ""
 msgid "Search..."
 msgstr ""
 
-
 msgid "General Information"
 msgstr ""
 
@@ -540,7 +542,6 @@ msgstr ""
 
 msgid "Company Information"
 msgstr ""
-
 
 msgid "Please select a country from list..."
 msgstr ""
@@ -614,7 +615,7 @@ msgstr ""
 msgid "I agree with the Terms and Conditions"
 msgstr ""
 
-msgid "Complete User Submittion Process"
+msgid "Complete User Submission Process"
 msgstr ""
 
 msgid "Continue to Company Information"
@@ -709,3 +710,70 @@ msgstr ""
 
 msgid "Ownership Status"
 msgstr ""
+
+msgid "Company Machine Tool Panel"
+msgstr ""
+
+msgid "Some Activities"
+msgstr ""
+
+msgid "List of activities"
+msgstr ""
+
+msgid "Company machine tools list"
+msgstr ""
+
+msgid "Company machine tools"
+msgstr ""
+
+msgid "Available Machine Tools in System"
+msgstr ""
+
+msgid "Propose a New Machine Tool"
+msgstr ""
+
+msgid "Proposition Form"
+msgstr ""
+
+msgid "Machine Manufacturer"
+msgstr ""
+
+msgid "Machine Name"
+msgstr ""
+
+msgid "Machine Model"
+msgstr ""
+
+msgid "Machine Type"
+msgstr ""
+
+msgid "Machine Properties"
+msgstr ""
+
+msgid "Submit new machine tool"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Machine Tool General Information"
+msgstr ""
+
+msgid "Machine Tool Properties Information"
+msgstr ""
+
+msgid "Add selected Machine"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Please Enter Machine Manufacturer Name (Brand)"
+msgstr ""
+
+msgid "Please Enter Machine Name (Series)"
+msgstr ""
+
+msgid "Please Enter Machine Model (Production Year)"
+msgstr ""
+
